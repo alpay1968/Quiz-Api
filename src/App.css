@@ -69,12 +69,14 @@ h2, h4 {
 }
 
 .pagination-btn.active {
+  transition: background-color 0.3s ease;
   background-color: #007bff;
   font-weight: bold;
 }
 
 .pagination-btn:hover {
   background-color: #5a6268;
+
 }
 .text-success {
   color: #28a745;
@@ -85,3 +87,7 @@ h2, h4 {
   padding: 10px 20px;
 }
 
+.text-success {
+  color: #28a745; /* Yeşil renk */
+  font-size: 1rem; /* Yazı boyutu */
+}
